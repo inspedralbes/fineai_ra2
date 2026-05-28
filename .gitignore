@@ -1,0 +1,18 @@
+# Nuxt 3 build outputs
+.nuxt
+.output
+
+# Dependencies
+node_modules
+
+# Production build and previews
+dist
+.vercel
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
