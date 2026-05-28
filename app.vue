@@ -243,6 +243,11 @@ function saveBudget() {
       </section>
     </main>
 
+    <!-- Assistent Financer Flotant -->
+    <AICoachChat 
+      :transactions="transactions" 
+      :budgetLimit="budgetLimit" 
+    />
   </div>
 </template>
 
