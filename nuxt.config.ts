@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     manifest: {
       name: 'FineAI Personal Finances',
       short_name: 'FineAI',
+      lang: 'ca',
       description: 'Gestor de finances personals premium amb assistent de IA',
       theme_color: '#0B0F19',
       background_color: '#0B0F19',
@@ -34,6 +35,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'ca'
+      },
       title: 'FineAI - Finances Personals',
       meta: [
         { charset: 'utf-8' },
